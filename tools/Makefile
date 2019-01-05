@@ -111,7 +111,7 @@ sctk: sctk-2.4.10-20151007-1312Z.tar.bz2
 	rm -rf sctk && ln -s sctk-2.4.10 sctk
 
 sctk-2.4.10-20151007-1312Z.tar.bz2:
-	wget -T 10 -t 3 ftp://jaguar.ncsl.nist.gov/pub/sctk-2.4.10-20151007-1312Z.tar.bz2|| \
+	wget -T 10 -t 3 http://cn-mirror.openslr.org/resources/4/sctk-2.4.10-20151007-1312Z.tar.bz2 || \
 	wget --no-check-certificate -T 10 http://www.openslr.org/resources/4/sctk-2.4.10-20151007-1312Z.tar.bz2
 
 sph2pipe: sph2pipe_compiled
